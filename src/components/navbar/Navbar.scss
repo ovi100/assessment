@@ -1,0 +1,38 @@
+.navbar-dark{
+    .navbar-nav{
+        .nav-link{
+            color: #000 !important;
+        }
+        .active{
+            color: #5a5a5a !important;
+        }
+    }
+
+    button{
+        background: #3A2E45;
+        border-radius: 0;
+
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
+
+.offcanvas{
+    width: 250px !important;
+    background: #FBF6F6;
+    .offcanvas-body{
+        padding-left: 0;
+        padding-right: 0;
+        .navbar-nav{
+            text-align: center;
+
+            .nav-item{
+                border-bottom: 1px solid #000;
+            }
+            .nav-link{
+                color: #000;
+            }
+        }
+    }
+}

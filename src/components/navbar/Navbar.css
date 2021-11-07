@@ -1,0 +1,24 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: #000 !important; }
+.navbar-dark .navbar-nav .active {
+  color: #5a5a5a !important; }
+.navbar-dark button {
+  background: #3A2E45;
+  border-radius: 0; }
+  .navbar-dark button:focus {
+    box-shadow: none; }
+
+.offcanvas {
+  width: 250px !important;
+  background: #FBF6F6; }
+  .offcanvas .offcanvas-body {
+    padding-left: 0;
+    padding-right: 0; }
+    .offcanvas .offcanvas-body .navbar-nav {
+      text-align: center; }
+      .offcanvas .offcanvas-body .navbar-nav .nav-item {
+        border-bottom: 1px solid #000; }
+      .offcanvas .offcanvas-body .navbar-nav .nav-link {
+        color: #000; }
+
+/*# sourceMappingURL=Navbar.css.map */
